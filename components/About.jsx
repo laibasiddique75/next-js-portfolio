@@ -1,3 +1,4 @@
+'use client';
 import DevImg from "./DevImg"
 import Image from "next/image"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs"
@@ -134,7 +135,7 @@ const About = () => {
         </div>
         {/* tabs */}
         <div className='flex-1'>
-            <Tabs defaulValue='personal'>
+            <Tabs defaultValue='personal'>
                 <TabsList className='w-full grid xl:grid-cols-3 xl:max-w-[520px] xl:border dark:border-none'>
                     <TabsTrigger className='w-[162px] xl:w-auto' value='personal'>Personal Info</TabsTrigger>
                     <TabsTrigger className='w-[162px] xl:w-auto' value='qualifications'>Qualification</TabsTrigger>

@@ -1,4 +1,4 @@
-
+'use client'
 
 import { GanttChartSquare, Blocks, Gem } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -39,7 +39,7 @@ const Services = () => {
                             </CardHeader>
                           
                             <CardContent className='text-center'>
-                            <CardTitle classNamem='mb-4'>{item.title}</CardTitle>
+                            <CardTitle className='mb-4'>{item.title}</CardTitle>
 
                                 <CardDescription className='text-lg'>{item.description}</CardDescription>
                             </CardContent>

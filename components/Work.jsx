@@ -50,9 +50,9 @@ const Work = () => {
         </div>
 
         <div className="xl:max-w-[900px] xl:absolute right-0 top-0">
-          <Swiper className="h-[480px] " slidesPreview={1} breakpoints={{
+          <Swiper className="h-[480px] "  data-slides-preview={3} breakpoints={{
             640:{
-                slidesPerView:2
+                slidesPreView:2
             }
           }}  spaceBetween={30} modules={[Pagination]} pagination={{clickable:true}}>
             

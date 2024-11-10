@@ -1,4 +1,4 @@
-
+'use client';
 import Image from "next/image";
 import { Card, CardHeader } from './ui/card';
 import { Badge } from './ui/badge';
