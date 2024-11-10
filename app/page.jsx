@@ -19,6 +19,7 @@ export default function Home() {
  <Hero/>
   <About/> 
  <Services/>
+ <Cta/>
  <Work/>
  <Contact />
 
