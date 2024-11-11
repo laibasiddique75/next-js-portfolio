@@ -1,6 +1,7 @@
 'use client';
 import DevImg from "./DevImg"
-import Image from "next/image"
+import Image from "next/image";
+
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs"
 import { User2, MailIcon, HomeIcon, PhoneCall, GraduationCap, Calendar, Briefcase, Section } from "lucide-react"
 
@@ -267,7 +268,7 @@ const About = () => {
                                     {getData(skillData, 'tools').data.map((item,index)=>{
                                         const {imgPath} = item
                                         return <div key={index}>
-                                            <Image src={imgPath} width={48} height={48} alt='' priority/>
+                                            <Image src={imgPath} width={48} height={48} alt='hj' priority/>
                                         </div>
                                     })}
                                 </div>

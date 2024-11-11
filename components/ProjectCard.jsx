@@ -16,7 +16,7 @@ const ProjectCard = ({ project }) => {
             src={project.image}
             width={247}
             height={250}
-            alt=""
+            alt="vgbhjn"
             priority
           />
 

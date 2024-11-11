@@ -7,7 +7,7 @@ const Logo = () => {
     <div>
     
     <Link href='/'>
-    <Image src='/LaibaLogo.png' width={54} height={54} priority alt=""/>
+    <Image src='/LaibaLogo.png' width={54} height={54} priority alt="bn"/>
     
     </Link>
     </div>
