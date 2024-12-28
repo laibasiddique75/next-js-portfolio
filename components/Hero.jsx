@@ -1,10 +1,8 @@
 "use client";
 import Image from "next/image";
-
 import Link from "next/link";
 import { Button } from "./ui/button";
 import { Download , Send} from "lucide-react";
-
 import {RiBriefcase4Fill,
     RiTeamFill,
     RiTodoFill,
@@ -48,7 +46,7 @@ const Hero = () => {
 
 </div>
 <DevImg containerStyles='bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom'
-imgSrc={"/personalimg.png"}/>
+imgSrc={"/my-img.png"}/>
 </div>
          </div>  
 

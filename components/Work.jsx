@@ -11,7 +11,7 @@ import ProjectCard from '/components/ProjectCard';
 
 const projectData = [
   {
-    image: '/web.png',
+    image: '/website.png',
     category: 'HTML Css',
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
     name: "Panacloud website",
@@ -19,7 +19,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: '/portfolio.png',
+    image: '/my-portfolio.png',
     category: 'Html Css',
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
     name: "Portfolio",
@@ -28,7 +28,7 @@ const projectData = [
   },
 
   {
-    image: '/login.png',
+    image: '/login-signup.png',
     category: 'Html Css js',
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
     name: "Sign-up Login website",
