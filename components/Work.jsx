@@ -1,5 +1,3 @@
-
-
 'use client'
 import Link from "next/link";
 import { Button } from "./ui/button";
@@ -11,7 +9,7 @@ import ProjectCard from '/components/ProjectCard';
 
 const projectData = [
   {
-    image: '/website.png',
+    image: '/website1.png',
     category: 'HTML Css',
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
     name: "Panacloud website",
@@ -19,7 +17,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: '/my-portfolio.png',
+    image: '/my-portfolio1.png',
     category: 'Html Css',
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
     name: "Portfolio",
@@ -28,7 +26,7 @@ const projectData = [
   },
 
   {
-    image: '/login-signup.png',
+    image: '/login-signup1.png',
     category: 'Html Css js',
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto quis culpa repellat. Ipsam, voluptas?",
     name: "Sign-up Login website",
